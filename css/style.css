@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-start;
+}
+
+header .logo {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 1;
+    width: 63px;
+    height: 20px;
+    flex: none;
+    gap: 32px;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 960px;
+    margin-top: -50px;
+}
+
+.icon {
+    padding: 40px 40px 15px;
+  }
+  
+
+  
+  
