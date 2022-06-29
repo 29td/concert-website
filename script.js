@@ -9,11 +9,9 @@ const iconLink4 = document.querySelector('.icon-link4');
 ham.addEventListener('click', () => {
   if (ham.classList.contains('active')) {
     ham.classList.remove('active');
-    logo.style.visibility = 'visible';
     icons.style.display = 'none';
   } else {
     ham.classList.add('active');
-    logo.style.visibility = 'hidden';
     icons.style.display = 'block';
   }
 });
@@ -24,21 +22,47 @@ iconLink.addEventListener('click', () => {
   logo.style.visibility = 'visible';
 });
 
-iconLink2.addEventListener('click', () => {
-  ham.classList.toggle('active');
-  icons.style.display = 'none';
-  logo.style.visibility = 'visible';
-});
+const mobile = document.querySelector('.featuredM');
+const desktop = document.querySelector('.featuredD');
 
-iconLink3.addEventListener('click', () => {
-  ham.classList.toggle('active');
-  icons.style.display = 'none';
-  logo.style.visibility = 'visible';
-});
+const mob = {
+  name: 'Mc Richie',
+  description: 'Summer festival Concert hosted by Mc Richie',
+  featuredImage: './assets/Images/mc.png',
+  linkToLiveVersion: '',
+  linkToSource: '',
 
-iconLink4.addEventListener('click', () => {
-    ham.classList.toggle('active');
-    icons.style.display = 'none';
-    logo.style.visibility = 'visible';
-  });
-  
+};
+
+const desk = {
+  name: 'Mc Richie',
+  description: 'Summer festival Concert hosted by Mc Richie',
+  featuredImage: './assets/Images/mc.png',
+  linkToLiveVersion: '',
+  linkToSource: '',
+
+};
+
+Dpopup.innerHTML = `            <div class="speaker">
+<h2>Featured Speaker</h2>
+<div class="line">
+</div>
+<div class="mc">
+    <img src="./assets/Images/mc.png" alt="img"/>
+    <h1>Mc Richie</h1>
+    <span>Summer festival Concert hosted by Mc Richie</span>
+</div>   
+</div>
+`;
+
+Mpopup.innerHTML = `            <div class="speaker">
+<h2>Featured Speaker</h2>
+<div class="line">
+</div>
+<div class="mc">
+    <img src="./assets/Images/mc.png" alt="img"/>
+    <h1>Mc Richie</h1>
+    <span>Summer festival Concert hosted by Mc Richie</span>
+</div>   
+</div>
+`;
