@@ -1,12 +1,9 @@
-// hamburger 
+// hamburger
 
 const ham = document.querySelector('.ham');
 const logo = document.querySelector('.logo');
 const icons = document.querySelector('.icons');
 const iconLink = document.querySelector('.icon-link');
-const iconLink2 = document.querySelector('.icon-link2');
-const iconLink3 = document.querySelector('.icon-link3');
-const iconLink4 = document.querySelector('.icon-link4');
 
 ham.addEventListener('click', () => {
   if (ham.classList.contains('active')) {
@@ -24,18 +21,18 @@ iconLink.addEventListener('click', () => {
   logo.style.visibility = 'visible';
 });
 
-//dynamic page
+// dynamic page
 
 const speakerSection = document.querySelector('#featuredM');
 
-const desk = [ {
+const desk = [{
   name: 'Mc Richie',
   description: 'Summer festival Concert hosted by Mc Richie',
   featuredImage: './assets/Images/mc.png',
   linkToLiveVersion: '',
   linkToSource: '',
 
-}, { 
+}, {
   name: 'DJ Maphorisa',
   description: 'South african based musician.',
   featuredImage: './assets/Images/mc.png',
@@ -67,7 +64,7 @@ const desk = [ {
   linkToSource: '',
 }];
 
-desk.forEach(speaker => {
+desk.forEach((speaker) => {
   const speakerDiv = document.createElement('div');
   speakerDiv.classList.add('speaker');
 
@@ -80,6 +77,5 @@ desk.forEach(speaker => {
 </div>
 </div>
 `;
-speakerSection.appendChild(speakerDiv);
+  speakerSection.appendChild(speakerDiv);
 });
-
