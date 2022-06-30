@@ -29,39 +29,39 @@ const desk = [{
   name: 'Mc Richie',
   description: 'Summer festival Concert hosted by Mc Richie',
   featuredImage: './assets/Images/mc.png',
-  linkToLiveVersion: '',
-  linkToSource: '',
+  linkToLiveVersion: 'https://29td.github.io/concert-website/',
+  linkToSource: 'https://github.com/29td/concert-website/tree/concert',
 
 }, {
   name: 'DJ Maphorisa',
   description: 'South african based musician.',
   featuredImage: './assets/Images/mc.png',
-  linkToLiveVersion: '',
-  linkToSource: '',
+  linkToLiveVersion: 'https://29td.github.io/concert-website/',
+  linkToSource: 'https://github.com/29td/concert-website/tree/concert',
 }, {
   name: 'Rihanna',
   description: 'New York based musician.',
   featuredImage: './assets/Images/mc.png',
-  linkToLiveVersion: '',
-  linkToSource: '',
+  linkToLiveVersion: 'https://29td.github.io/concert-website/',
+  linkToSource: 'https://github.com/29td/concert-website/tree/concert',
 }, {
   name: 'Larmack',
   description: 'Jamaica based musician.',
   featuredImage: './assets/Images/mc.png',
-  linkToLiveVersion: '',
-  linkToSource: '',
+  linkToLiveVersion: 'https://29td.github.io/concert-website/',
+  linkToSource: 'https://github.com/29td/concert-website/tree/concert',
 }, {
   name: 'Dladla mshunqisi',
   description: 'KZN based musician.',
   featuredImage: './assets/Images/mc.png',
-  linkToLiveVersion: '',
-  linkToSource: '',
+  linkToLiveVersion: 'https://29td.github.io/concert-website/',
+  linkToSource: 'https://github.com/29td/concert-website/tree/concert',
 }, {
   name: 'Tatiana',
   description: 'Kenya based musician.',
   featuredImage: './assets/Images/mc.png',
-  linkToLiveVersion: '',
-  linkToSource: '',
+  linkToLiveVersion: 'https://29td.github.io/concert-website/',
+  linkToSource: 'https://github.com/29td/concert-website/tree/concert',
 }];
 
 desk.forEach((speaker) => {
