@@ -1,3 +1,5 @@
+// hamburger 
+
 const ham = document.querySelector('.ham');
 const logo = document.querySelector('.logo');
 const icons = document.querySelector('.icons');
@@ -22,47 +24,62 @@ iconLink.addEventListener('click', () => {
   logo.style.visibility = 'visible';
 });
 
-const mobile = document.querySelector('.featuredM');
-const desktop = document.querySelector('.featuredD');
+//dynamic page
 
-const mob = {
+const speakerSection = document.querySelector('#featuredM');
+
+const desk = [ {
   name: 'Mc Richie',
   description: 'Summer festival Concert hosted by Mc Richie',
   featuredImage: './assets/Images/mc.png',
   linkToLiveVersion: '',
   linkToSource: '',
 
-};
-
-const desk = {
-  name: 'Mc Richie',
-  description: 'Summer festival Concert hosted by Mc Richie',
+}, { 
+  name: 'DJ Maphorisa',
+  description: 'South african based musician.',
   featuredImage: './assets/Images/mc.png',
   linkToLiveVersion: '',
   linkToSource: '',
+}, {
+  name: 'Rihanna',
+  description: 'New York based musician.',
+  featuredImage: './assets/Images/mc.png',
+  linkToLiveVersion: '',
+  linkToSource: '',
+}, {
+  name: 'Larmack',
+  description: 'Jamaica based musician.',
+  featuredImage: './assets/Images/mc.png',
+  linkToLiveVersion: '',
+  linkToSource: '',
+}, {
+  name: 'Dladla mshunqisi',
+  description: 'KZN based musician.',
+  featuredImage: './assets/Images/mc.png',
+  linkToLiveVersion: '',
+  linkToSource: '',
+}, {
+  name: 'Tatiana',
+  description: 'Kenya based musician.',
+  featuredImage: './assets/Images/mc.png',
+  linkToLiveVersion: '',
+  linkToSource: '',
+}];
 
-};
+desk.forEach(speaker => {
+  const speakerDiv = document.createElement('div');
+  speakerDiv.classList.add('speaker');
 
-Dpopup.innerHTML = `            <div class="speaker">
-<h2>Featured Speaker</h2>
-<div class="line">
+  speakerDiv.innerHTML = `
+    <div class="mc">
+        <img src="${speaker.featuredImage}" alt="img"/>
+        <h1>${speaker.name}</h1>
+        <span>${speaker.description}</span>
+    </div>   
 </div>
-<div class="mc">
-    <img src="./assets/Images/mc.png" alt="img"/>
-    <h1>Mc Richie</h1>
-    <span>Summer festival Concert hosted by Mc Richie</span>
-</div>   
 </div>
 `;
+speakerSection.appendChild(speakerDiv);
+});
 
-Mpopup.innerHTML = `            <div class="speaker">
-<h2>Featured Speaker</h2>
-<div class="line">
-</div>
-<div class="mc">
-    <img src="./assets/Images/mc.png" alt="img"/>
-    <h1>Mc Richie</h1>
-    <span>Summer festival Concert hosted by Mc Richie</span>
-</div>   
-</div>
-`;
