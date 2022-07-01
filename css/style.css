@@ -649,12 +649,12 @@
   }
 
   .program ol {
-    display: flex;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 3px;
     list-style: none;
     color: #ec5242;
-
-    /* width: 70%; */
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
@@ -665,9 +665,13 @@
     background-color: #272a31;
     border: 1px solid #272a31;
   }
+  
+  .program span {
+    margin-top: 20px;
+  }
 
   .program li p {
-    margin-top: 10px;
+    margin-top: 30px;
     color: #d3d3d3;
   }
 
