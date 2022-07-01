@@ -8,7 +8,11 @@ A concert is a live music performance in front of an audience.
 - git-bash/Vscode
 - laptop windows 10
 
+<<<<<<< HEAD
 ## Live Demo (if available)
+=======
+## Live Demo
+>>>>>>> 34954adfcb29c881105f6551c56bdc7010fa8266
 https://29td.github.io/concert-website/
 
 ## Getting Started
