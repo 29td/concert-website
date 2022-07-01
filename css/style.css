@@ -78,6 +78,15 @@
   flex-direction: column;
 }
 
+.program span {
+  margin-left: 10px;
+}
+
+.mc span {
+  display: flex;
+  margin-left: 150px;
+}
+
 .boddy h1 span {
   font-size: 20px;
   color: #ec5242;
@@ -90,7 +99,7 @@
   font-size: 30px;
   margin-left: 30px;
   color: #ec5242;
-  font-family: 'cocogoose';
+  font-family: 'cocogoose', sans-serif;
   margin-top: 10px;
   align-items: flex-start;
 }
@@ -173,8 +182,7 @@
 .hl {
   height: 2px;
   width: 50px;
-  margin-left: 175px;
-  background-color: #ec5242;  
+  background-color: #ec5242;
   margin-bottom: 5%;
   margin-left: 20px;
 }
@@ -200,10 +208,8 @@
 }
 
 .us .us1 {
-  color: #d3d3d3;
   font-size: 40px;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
   color: #d3d3d3;
   margin-top: -190px;
   font-family: 'Lato', sans-serif;
@@ -211,10 +217,8 @@
 }
 
 .us .us2 {
-  color: #d3d3d3;
   font-size: 23px;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
   color: #d3d3d3;
   font-family: 'Lato', sans-serif;
   margin-left: 30px;
@@ -252,7 +256,7 @@
 }
 
 .program {
-  height: 125vh;
+  height: 145vh;
   margin-top: -30px;
   background-color: rgba(0, 0, 0, 0.884);
 }
@@ -267,11 +271,13 @@
 }
 
 .program ol {
+  display: flex;
+  flex-direction: column;
   list-style: none;
   color: #ec5242;
   justify-content: space-between;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
   margin-right: 10px;
 }
 
@@ -282,17 +288,14 @@
   border: 1px solid #272a31;
 }
 
-.program span {
-  display: flex;
-  margin-top: -10px;
-}
-
-.program li p {
+.program p {
+  margin-left: 200px;
   margin-top: 10px;
   color: #d3d3d3;
 }
 
 .program li img {
+  align-items: center;
   width: 50px;
 }
 
@@ -357,11 +360,6 @@
   margin-top: -100px;
   margin-left: 150px;
   color: #272a31;
-}
-
-.mc span {
-  display: flex;
-  margin-left: 150px;
 }
 
 #footer {
@@ -479,14 +477,21 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .boddy {
     background-color: #d3d3d3;
+
     /* height: 95vh; */
     display: flex;
     align-items: center;
     flex-direction: column;
+
     /* padding: ; */
+  }
+
+  .program span {
+    margin-left: 50px;
+    margin-top: 20px;
   }
 
   .boddy h1 span {
@@ -500,22 +505,15 @@
     align-items: flex-start;
   }
 
-  .boddy .para {
+  .detail {
     align-items: center;
-    margin-top: -130px;
-      
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    height: 40px;
+    color: #272a31;
+    margin-left: 30px;
   }
-
- .detail {
-   align-items: center;
-  font-weight: 700;
-  line-height: 24px;
-  font-family: 'Lato', sans-serif;
-  height: 40px;
-  color: #272a31;
-  margin-left: 30px;
-
- }
 
   .par {
     margin-top: -130px;
@@ -528,13 +526,10 @@
   .boddy .para {
     padding: 10px;
     width: 50%;
-    /* border: 1px solid #d3d3d3;
-    background-color: #fff; */
     line-height: 20px;
     font-size: 15px;
     font-weight: 400;
     color: #272a31;
-    /* align-self: center; */
   }
 
   .items {
@@ -569,12 +564,10 @@
   .hl {
     height: 2px;
     width: 50px;
-    margin-left: 175px;
-    background-color: #ec5242;  
+    background-color: #ec5242;
     margin-bottom: 5%;
     align-items: center;
     margin-left: -180px;
-
   }
 
   .line {
@@ -665,25 +658,6 @@
     background-color: #272a31;
     border: 1px solid #272a31;
   }
-  
-  .program span {
-    margin-top: 20px;
-  }
-
-  .program li p {
-    margin-top: 30px;
-    color: #d3d3d3;
-  }
-
-  .summer-logo h2 {
-    align-items: center;
-    margin-left: 70px;
-  }
-
-  .summer-logo p {
-    align-items: center;
-    margin-left: 100px;
-  }
 
   .summer-logo img {
     align-items: center;
@@ -692,7 +666,25 @@
   }
 
   .program li img {
+    align-items: center;
+    margin-left: 50px;
     width: 50px;
+  }
+
+  .summer-logo p {
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .program li p {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #d3d3d3;
+  }
+
+  .summer-logo h2 {
+    align-items: center;
+    margin-left: 70px;
   }
 
   .global {
@@ -734,8 +726,7 @@
     margin-top: 140px;
     margin-left: -195px;
     background-color: #ec5242;
-    }
-
+  }
 
   .speaker h2 {
     margin-left: 400px;
@@ -747,15 +738,12 @@
     margin-left: 400px;
   }
 
-
-
   .speaker {
     /* float: left;
     width: 30%; */
     height: 10vw;
   }
 
- 
   .mc h1 {
     margin-left: 150px;
   }
