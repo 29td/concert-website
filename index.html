@@ -4,99 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer festival</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <title>Concert Website</title>
-</head>
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+
 <body>
-    <div class="network">
-        <div class="networks">
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="icon-lin">Logout</a>
-        <a href="#" class="icon-lin">Mypage</a>
-        <a href="#" class="icon-lin">Korean</a>
-    </div>
-    </div>
-
     <header>
-        <nav class="menu">
-            <a href="#link"><img src="./assets/Images/logo.png" alt="img"/></a>
-            <ul class="icons" id="nav-icons">
-                <li class="icon" >
-                    <a href="about.html" class="icon-link">About</a>
-                </li>
-                <li class="icon">
-                    <a href="#" class="icon-link2">Program</a>
-                </li>
-                <li class="icon">
-                    <a href="#" class="icon-link3">Join</a>
-                </li>
-                <li class="icon">
-                    <a href="#" class="icon-link3">Sponsor</a>
-                </li>
-                <li class="icon">
-                    <a href="#" class="icon-link4">News</a>
-                </li>
-                <li class="icon">
-                    <a href="#" class="icon-link5">Global link</a>
-                </li>
-
-
-            </ul>
-            <a href="#" class="ham">
-                <span class="bars"></span>
-                <span class="bars"></span>
-                <span class="bars"></span>
-            </a>
-        </nav>
+        <ul class="nav nav justify-content-end">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
     </header>
-<section class="boddy" id="link">
-    <h1><span>"Hello! Welcome to summer"</span>SUMMER FESTIVAL<br>MUSIC CONCERT<br>2022</h1>
-    <p class="para">
-        A joyful celebration where you get to relax and enjoy summer festive..
-        There is nothing in the world so much like prayer as music is.
-    </p>
-    <img src="./assets/Icons/sunny.svg" alt="img" class="sunny"/>
-    <div class="detail">
-        <p class="par">Thursday/1 Sep from: 12:00pm-late</p>
-        <p class="pars">featuring Dj zinhle, Dladla Mshunqisi Qtwins ft Dj Tira Black Coffee and more</p>    
-        Get your tickets at shoprite or from R250
-        @Durban Beach
-        RSVP:<br>
-        <a href = "tel:076344711">+27 76 344 711</a>,
-        <a href = "malito:nonhlanhlamndebele9@gmail.com">nonhlanhlamndebele9@gmail.com</a>
+    <div class="top">
+        <div class="top1">
+            <img alt="logo" src="./assets/Image/logo.png">
+            <ul class="nav">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Join</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
     </div>
-</section>
-<div class="program">
-    <h3>Main Program</h3>
-    <div class="line">
-    </div>                      
-    <ol type="1">
-        <li><img src="./assets/Images/live.png" alt="img"/><span>Live music</span><p>Listen to live music</p></li>
-        <li><img src="./assets/Images/advet.png" alt="img"/><span>5 km adventure fun run</span><p>Enjoy the adventure</p></li>
-        <li><img src="./assets/Images/beer.png" alt="img"/><span>Beer and gin garden</span><p>Drink and have fun</p></li>
-        <li><img src="./assets/Images/kids.png" alt="img"/><span>Kids' entertainment</span><p>during the day of the event the kids can have fun as well.</p></li>
-        <li><img src="./assets/Images/cooler.png" alt="img"/><span>Cooler box allowed from 12pm-5pm</span><p>from this time you dont have to pay for your cooler-box</p></li>
-        <li><img src="./assets/Images/cooler.png" alt="img"/><span>From 6pm-late cooler box fee R100</span><p>from this time you have to pay for your cooler-box</p></li>
-        <li><img src="./assets/Images/refund.png" alt="img"/><span>No Refunds</span><p>No refunds for every payment you make.</p></li>
-    </ol>
-    <button  class="global" type="submit">Join Global Link</button>
-    <button  class="global1" type="submit">SEE THE WHOLE PROGRAM</button>
+    <div class="main">
+        <div class="overlay">
+            <div class="menu-overlay" onclick = "showMenu()">
+                <div class="menu">
+                    <div class="login">Login</div>
+                    <a class="menu-link" href="index.html">Home</a>
+                    <a class="menu-link" href="about.html">about</a>
+                    <a class="menu-link" href="#">Join</a>
+                    <a class="menu-link" href="#">Sponsors</a>
+                    <a class="menu-link" href="#">Contact</a>
+                </div>
+            </div>
+            <div class="navigation"  onclick = "showMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
 
-</div>
-
-<div id="featuredM">
-<h2>Featured Performers</h2>
-<div class="hr">
-</div>                  
-</div>
-
-<footer id="footer">
-    <img src="./assets/Images/logo.png" alt="img"/><span>@copy right reserver summer festival 2022</span>
-</footer>
-
-<script src="script.js"></script>
+            <section class="intro">
+                <p class="hello">"Hello! sharing world"</p>
+                <h1 class="main-title">SUMMER FESTIVAL MUSIC CONCERT 2022</h1>
+                <div class="intro-message">
+                    <p>A joyful celebration where you get to relax and enjoy summer festive.. There is nothing in the world so much like prayer as music is.</p>
+                </div>
+                <div class="intro-message2">
+                    <h2>2022.06.20(MON) ~ 25(FRI)</h2>
+                    <h3>Durban Beach 2022</h3>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="program">
+        <div class="programcover">
+            <h3>Main Program</h3>
+            <div class="program-list">
+                <div class="program1">
+                    <img alt="lecture" src="./assets/Images/program_icon_01.png">
+                    <h4>Lecture</h4>
+                    <p>Listen to the speakers from various countries about the messages of sharing and opening</p>
+                </div>
+                <div class="program1">
+                    <img alt="Exhibition" src="./assets/Images/program_icon_02.png">
+                    <h4>Exhibition</h4>
+                    <p>Appreciate various applying CC license of artist, organized from Art Center Nabi.</p>
+                </div>
+                <div class="program1">
+                    <img alt="Forum" src="./assets/Images/program_icon_03.png">
+                    <h4>Forum</h4>
+                    <p>Have the time to share your thoughts and opinions with experts for each topic</p>
+                </div>
+                <div class="program1">
+                    <img alt="Workshop" src="./assets/Images/program_icon_04.png">
+                    <h4>Workshop</h4>
+                    <p>Try creating your own work using open source license rather than just watching at it.</p>
+                </div>
+                <div class="program1">
+                    <img alt="CC Ignite" src="./assets/Images/program_icon_05.png">
+                    <h4>CC Ignite</h4>
+                    <p>Get opportunities to network with CC affiliates around the world also after the summit.</p>
+                </div>
+            </div>
+            <p class="join1">SEE THE WHOLE PROGRAM</p>
+            <div class="join">Join Summer Festive 2022</div>
+        </div>
+    </section>
+    <section id="speakers">
+        <h2>Featured Members</h2>
+        <div class="guide_bar"></div>
+        <div class="speaker-container"></div>
+    </section>
+    <section class="partner">
+     <div class="partner-list">
+        <div class="logo2"></div>
+     </div>
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>@2022 All rights reserved</p>
+            <p>必活理階話勢決理教延変方巨。果上年国記長余言幸質上定之摘例副樹。深臣薄備品治地見再一披意銀。早加立引率報年置次高整座査際室位。躍文勝合載記入件就注付情。</p>
+        </div>
+    </footer>
+    <script  src="js/menu.js" ></script>
+    <script  src="content.js" ></script>
 </body>
 </html>
