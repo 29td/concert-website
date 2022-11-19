@@ -16,18 +16,18 @@
 [Video](https://loom.com/share/29dbe3cfc6be47359c8b0a7bcb30318a)
 
 ## Getting Started
-To get a local copy of this exercice, Please follow these simple example steps.
+To get a local copy of this exercice, Please follow the instructions below:
 
 Clone this repository or download the Zip folder:
-https://github.com/29td/concert-website.git
+> https://github.com/29td/concert-website.git
 
 Navigate to the location of the folder in your machine:
-you@your-Pc-name:~$ cd <folder>
+> you@your-Pc-name:~$ cd <folder>
 
-Press Enter to navigate to your local clone.
-Open terminal and run this command npm install
-after finishing step 5, run this command npm start to run the project
-for testing components, you can run: npm run test.
+- Press Enter to navigate to your local clone.
+- Open terminal and run this command npm install
+- after finishing step 5, run this command npm start to run the project
+- for testing components, you can run: npm run test.
 
 
 ## Author
